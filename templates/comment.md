@@ -1,13 +1,13 @@
-# Request for comments
+# Comment
 
 <!--
 This template helps create proposals for community-facing changes and features.
-Requests for comments are for interfaces, behaviours, and capabilities that
-directly affect how people interact with or use Rai Shield. For underlying
-technical architecture and tooling decisions, use the architecture decision
-record template instead.
+Comments are for interfaces, behaviours, and capabilities that
+directly affect how people interact with or use Rai Shield. Comments are also known as requests for comments (RFCs).
+For underlying technical architecture and tooling decisions, use the decision
+template instead.
 
-Process details: https://handbook.omnifi.coop/engineering/architecture/rfcs/
+Process details: https://handbook.omnifi.coop/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -16,7 +16,7 @@ Process details: https://handbook.omnifi.coop/engineering/architecture/rfcs/
 <!-- A clear, descriptive title for the proposal -->
 
 ### Number
-<!-- Sequential number: RFC-0001, RFC-0002, etc. -->
+<!-- Sequential number: 0001, 0002, etc. -->
 
 ### Status
 <!-- Current status of this proposal -->
@@ -365,7 +365,7 @@ This proposal follows the
 Technical leads carry responsibility for facilitating decisions after the
 community discussion period closes. Requests for comments require active
 consensus — see the
-[handbook](https://handbook.omnifi.coop/engineering/architecture/rfcs/) for
+[handbook](https://handbook.omnifi.coop/engineering/architecture/governance/) for
 details.
 
 ---
@@ -376,4 +376,4 @@ details.
 GitLab quick actions for proposal workflow management.
 -->
 
-/label ~"rfc" ~"architecture" ~"needs discussion"
+/label ~"comment" ~"architecture" ~"needs discussion"

@@ -1,13 +1,12 @@
-# Architecture decision record
+# Decision
 
 <!--
 This template documents technical and organisational decisions for Rai Shield
 projects under the Omnifi Foundation. Architecture decision records focus on
 underlying architecture, development processes, tooling, and project structure.
-For community-facing changes and feature proposals, use the request for comments
-template instead.
+For community-facing changes and feature proposals, use the comment template instead.
 
-Process details: https://handbook.omnifi.coop/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.coop/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -16,7 +15,7 @@ Process details: https://handbook.omnifi.coop/engineering/architecture/adrs/
 <!-- A clear, descriptive title for the technical or organisational decision -->
 
 ### Number
-<!-- Sequential number: ADR-0001, ADR-0002, etc. -->
+<!-- Sequential number: 0001, 0002, etc. -->
 
 ### Status
 <!-- Current status of this decision -->
@@ -352,8 +351,8 @@ What will trigger a review of this decision?
 This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.coop/engineering/architecture/governance/).
 Technical leads carry responsibility for shepherding proposals through the
-process. Architecture decision records use lazy consensus — see the
-[handbook](https://handbook.omnifi.coop/engineering/architecture/adrs/) for
+process. Decisions use lazy consensus — see the
+[handbook](https://handbook.omnifi.coop/engineering/architecture/governance/) for
 details.
 
 ---
@@ -364,4 +363,4 @@ details.
 GitLab quick actions for technical decision tracking.
 -->
 
-/label ~"adr" ~"architecture" ~"technical"
+/label ~"decision" ~"architecture" ~"technical"

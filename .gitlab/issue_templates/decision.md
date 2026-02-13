@@ -1,4 +1,4 @@
-# Architecture decision record
+# Decision
 
 <!--
 Use this template to propose technical and organisational decisions for Rai
@@ -6,9 +6,9 @@ Shield. For community-facing changes and feature proposals, use the request
 for comments template instead.
 
 After creating this issue, draft your full proposal using the template at
-templates/adr.md and submit a merge request.
+templates/decision.md and submit a merge request.
 
-Process details: https://handbook.omnifi.coop/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.coop/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -66,7 +66,7 @@ Process details: https://handbook.omnifi.coop/engineering/architecture/adrs/
 
 ## Next steps
 
-- [ ] Draft full proposal in `adrs/XXXX-title.md`
+- [ ] Draft full proposal in `decisions/XXXX-title.md`
 - [ ] Submit merge request for review
 - [ ] Address feedback from technical leads
 - [ ] Update status after decision
@@ -79,7 +79,7 @@ This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.coop/engineering/architecture/governance/).
 Technical leads carry responsibility for shepherding proposals through the
 process. See the
-[handbook](https://handbook.omnifi.coop/engineering/architecture/adrs/) for
+[handbook](https://handbook.omnifi.coop/engineering/architecture/governance/) for
 process details.
 
-/label ~"adr" ~"architecture" ~"technical"
+/label ~"decision" ~"architecture"
