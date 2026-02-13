@@ -19,26 +19,30 @@ images from a single codebase.
 This repository tracks architectural decisions using two complementary
 approaches:
 
-- **Architecture decision records (ADRs)** capture internal technical and
-  organisational decisions — how Rai Shield is built, structured, and
+- **Decisions** capture internal technical and organisational choices — how Rai Shield is built, structured, and
   maintained.
 
-- **Requests for comments (RFCs)** handle community-facing proposals — changes
+- **Comments** handle community-facing proposals — changes
   to public interfaces, features, behaviour, and integration patterns that
   affect how people use Rai Shield.
 
-Both approaches are open to everyone. You don't need to be a maintainer or a
+These terms map to well-established practices — decisions are also known as
+architecture decision records (ADRs), and comments are also known as requests
+for comments (RFCs). We use plainer language to lower the barrier to
+contribution.
+
+Both approaches are open to everyone. You don’t need to be a maintainer or a
 regular contributor to submit a proposal. If you have an idea or see something
 that could be improved, you're welcome here.
 
 ## How the process works
 
-1. **Create an issue** using one of the issue templates (ADR or RFC) to signal
+1. **Create an issue** using one of the issue templates (decision or comment) to signal
    your intent and invite early feedback.
 2. **Draft a proposal** using the document templates in `templates/`.
-3. **Submit a merge request** with your proposal in `adrs/` or `rfcs/`.
-4. **Discuss** — for ADRs, technical leads review over 7–14 days. For RFCs, the
-   community discusses for a minimum of 14 days.
+3. **Submit a merge request** with your proposal in `decisions/` or `comments/`.
+4. **Discuss** — for decisions, technical leads review over 7–14 days. For comments,
+   the community discusses for a minimum of 14 days.
 5. **Decision** — once consensus is reached, the proposal is merged and becomes
    part of the project's record.
 
@@ -97,7 +101,7 @@ for full details.
 
 New to the project? Here's how to get oriented:
 
-1. **Browse existing proposals** in `adrs/` and `rfcs/` to see what's been
+1. **Browse existing proposals** in `decisions/` and `comments/` to see what's been
    decided and how proposals are structured.
 2. **Check open merge requests** for proposals currently under discussion.
 3. **Read the handbook** for
@@ -110,14 +114,14 @@ New to the project? Here's how to get oriented:
 ├── README.md              You are here
 ├── CONTRIBUTING.md        How to submit proposals
 ├── templates/
-│   ├── adr.md             Architecture decision record template
-│   └── rfc.md             Request for comments template
-├── adrs/                  Accepted architecture decision records
-├── rfcs/                  Accepted requests for comments
+│   ├── decision.md        Decision template
+│   └── comment.md         Comment template
+├── decisions/             Accepted decisions
+├── comments/              Accepted comments
 └── .gitlab/
     └── issue_templates/
-        ├── adr.md         Issue template for starting an ADR
-        └── rfc.md         Issue template for starting an RFC
+        ├── decision.md    Issue template for proposing a decision
+        └── comment.md     Issue template for proposing a comment
 ```
 
 ## Code of conduct
