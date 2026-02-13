@@ -4,21 +4,26 @@ This document explains how to submit architectural proposals for Rai Shield.
 
 The architecture decision process is governed by the Omnifi Foundation and
 documented in the
-[Omnifi Foundation handbook](https://handbook.omnifi.coop/engineering/architecture/).
+[Omnifi Foundation handbook](https://handbook.omnifi.foundation/engineering/architecture/).
 This guide covers the project-specific details for Rai Shield.
 
 ## Before you begin
 
-1. Browse existing proposals in `adrs/` and `rfcs/` to understand what's been
+This repository uses accessible folder names: `decisions/` for architecture
+decision records (ADRs) and `comments/` for requests for comments (RFCs).
+The purpose is identical — we use plainer language to lower the barrier to
+contribution.
+
+1. Browse existing proposals in `decisions/` and `comments/` to understand what's been
    decided and how proposals are structured.
 2. Check open merge requests for proposals currently under discussion.
-3. Read the [process documentation](https://handbook.omnifi.coop/engineering/architecture/)
+3. Read the [process documentation](https://handbook.omnifi.foundation/engineering/architecture/)
    in the handbook for detailed guidance.
 
-## Submitting an architecture decision record
+## Submitting a decision
 
-Architecture decision records capture internal technical and organisational
-decisions — choices about how Rai Shield is built and maintained.
+Decisions capture internal technical and organisational
+choices — how Rai Shield is built and maintained.
 
 ### When to write one
 
@@ -31,19 +36,19 @@ decisions — choices about how Rai Shield is built and maintained.
 
 ### Process
 
-1. **Create an issue** using the architecture decision record template in GitLab.
-2. **Obtain the next number** by checking existing records in `adrs/` or asking
+1. **Create an issue** using the decision template in GitLab.
+2. **Obtain the next number** by checking existing records in `decisions/` or asking
    a maintainer.
-3. **Draft your proposal** using the template in `templates/adr.md`.
-4. **Submit a merge request** with your proposal at `adrs/XXXX-title-slug.md`.
+3. **Draft your proposal** using the template in `templates/decision.md`.
+4. **Submit a merge request** with your proposal at `decisions/XXXX-title-slug.md`.
 5. **Address review feedback** from technical leads and the community.
-6. **Merge when accepted** — ADRs use lazy consensus (see the
-   [handbook](https://handbook.omnifi.coop/engineering/architecture/governance/) for
+6. **Merge when accepted** — decisions use lazy consensus (see the
+   [handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/) for
    details).
 
-## Submitting a request for comments
+## Submitting a comment
 
-Requests for comments are for community-facing proposals with broader impact —
+Comments are for community-facing proposals with broader impact —
 changes that affect how people use Rai Shield.
 
 ### When to write one
@@ -56,10 +61,10 @@ changes that affect how people use Rai Shield.
 
 ### Process
 
-1. **Create an issue** using the request for comments template in GitLab.
-2. **Obtain the next number** by checking existing proposals in `rfcs/` or
+1. **Create an issue** using the comment template in GitLab.
+2. **Obtain the next number** by checking existing proposals in `comments/` or
    asking a maintainer.
-3. **Draft your proposal** using the template in `templates/rfc.md`.
+3. **Draft your proposal** using the template in `templates/comment.md`.
 4. **Submit a merge request** to begin the discussion period.
 5. **Engage with community feedback** via merge request comments.
 6. **Wait for the discussion period** (minimum 14 days).
@@ -70,10 +75,10 @@ changes that affect how people use Rai Shield.
 Use lowercase with hyphens. Combine the four-digit number with a descriptive
 slug:
 
-- Architecture decision records: `decisions/0001-use-wasmtime-for-plugin-runtime.md`
-- Requests for comments: `comments/0001-unified-provider-interface.md`
+- Decisions: `decisions/0001-use-wasmtime-for-plugin-runtime.md`
+- Comments: `comments/0001-unified-provider-interface.md`
 
-See the [numbering scheme](https://handbook.omnifi.coop/engineering/architecture/numbering/)
+See the [numbering scheme](https://handbook.omnifi.foundation/engineering/architecture/numbering/)
 in the handbook for full details.
 
 ## Affected projects
@@ -91,13 +96,13 @@ Tag relevant maintainers from each affected area in your merge request.
 
 ## Review expectations
 
-- **Architecture decision records**: Review by technical leads, typically 7–14
+- **Decisions**: Review by technical leads, typically 7–14
   days. Uses lazy consensus — if no substantive objections are raised, the
   proposal is accepted.
-- **Requests for comments**: Open community discussion, minimum 14 days, may
+- **Comments**: Open community discussion, minimum 14 days, may
   extend based on scope. Requires active consensus.
 
-See the [governance model](https://handbook.omnifi.coop/engineering/architecture/governance/)
+See the [governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/)
 for how consensus works and how disagreements are resolved.
 
 ## Questions
